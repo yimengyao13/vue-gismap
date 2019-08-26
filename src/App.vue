@@ -28,14 +28,15 @@ export default {
   background-color: #c00000;
   color: #fff;
   line-height: 60px;
+  height: 1000px;
 }
-
 .el-main {
+  padding: 0px;
   background-color: #E9EEF3;
   color: #333;
   text-align: center;
   line-height: 160px;
-  height: 500px;
+  height: 100vh;
 }
 /*更改全局的滚动条样式*/
 ::-webkit-scrollbar {
@@ -49,5 +50,4 @@ export default {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
   background-color: rgba(0, 0, 0, .1)
 }
-
 </style>
