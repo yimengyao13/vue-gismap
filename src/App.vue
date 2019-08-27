@@ -39,6 +39,7 @@ export default {
   height: 100vh;
 }
 /*更改全局的滚动条样式*/
+/*非标准，注释掉*/
 /*::-webkit-scrollbar {
   width: 8px;
   height: 8px;
