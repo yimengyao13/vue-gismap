@@ -1,7 +1,7 @@
 <template>
   <div>
     <div id="map">map</div>
-    <div style="background-color: #fff; height: 100vh;width: 15%;position:absolute;left:0px;">
+    <div style="background-color: #fff; height: 100vh;width: 15%;position:absolute;left:0px;top: 60px">
       <el-scrollbar style="height: 100%;">
         <el-tree :data="treedata" show-checkbox node-key="id" :props="defaultProps" @check="changecheck">
         </el-tree>
@@ -77,7 +77,7 @@ export default {
           this.map.removeLayer(this.map._layers[a])
         }
       };
-      var urlbase = 'http://localhost:8081/history/geometry?'
+      var urlbase = window.g.BASE_URL;
       var dynastylist = this.treedata[0]['children']
       //定义黑点
       var blackIcon = L.icon({

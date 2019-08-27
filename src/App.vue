@@ -39,7 +39,7 @@ export default {
   height: 100vh;
 }
 /*更改全局的滚动条样式*/
-::-webkit-scrollbar {
+/*::-webkit-scrollbar {
   width: 8px;
   height: 8px;
   background-color: #fff;
@@ -49,5 +49,5 @@ export default {
   // border-radius:5px;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
   background-color: rgba(0, 0, 0, .1)
-}
+}*/
 </style>
